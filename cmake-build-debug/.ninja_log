@@ -1,0 +1,10 @@
+# ninja log v6
+1	256	1765054282172064872	DesktopWidgetForLaundry_autogen/timestamp	2ad57efb8c34a975
+1	256	1765054282172064872	DesktopWidgetForLaundry_autogen/mocs_compilation.cpp	2ad57efb8c34a975
+1	256	1765054282172064872	/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/timestamp	2ad57efb8c34a975
+1	256	1765054282172064872	/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp	2ad57efb8c34a975
+258	1089	1765054282185279656	CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp.o	43cb38f039da59d5
+258	1101	1765054282185502769	CMakeFiles/DesktopWidgetForLaundry.dir/main.cpp.o	dbf727c686afc434
+259	1136	1765054282185627054	CMakeFiles/DesktopWidgetForLaundry.dir/LaundryTimer.cpp.o	177c052f1a5a596a
+259	1556	1765054282185737090	CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o	1bd330f50faf6dfe
+1558	1685	1765054283484710755	DesktopWidgetForLaundry.app/Contents/MacOS/DesktopWidgetForLaundry	ba4f323824e8921
