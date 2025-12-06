@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DesktopWidgetForLaundry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DesktopWidgetForLaundry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DesktopWidgetForLaundry-Debug-3b3569ede06b52f7dab9.json",
+					"name" : "DesktopWidgetForLaundry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DesktopWidgetForLaundry_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DesktopWidgetForLaundry_autogen-Debug-ea59e018ddde6532bb17.json",
+					"name" : "DesktopWidgetForLaundry_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DesktopWidgetForLaundry_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DesktopWidgetForLaundry_autogen_timestamp_deps-Debug-8110e453f80e934ed6eb.json",
+					"name" : "DesktopWidgetForLaundry_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug",
+		"source" : "/Users/bsikar/CLionProjects/DesktopWidgetForLaundry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

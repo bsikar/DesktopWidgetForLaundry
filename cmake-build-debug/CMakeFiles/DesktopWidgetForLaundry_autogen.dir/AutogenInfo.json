@@ -312,6 +312,12 @@
 			null
 		],
 		[
+			"/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/NotificationManager.h",
+			"MU",
+			"EWIEGA46WW/moc_NotificationManager.cpp",
+			null
+		],
+		[
 			"/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/StatusItemBridge.h",
 			"MU",
 			"EWIEGA46WW/moc_StatusItemBridge.cpp",
@@ -332,6 +338,8 @@
 	"MOC_INCLUDES" : 
 	[
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/UserNotifications.framework",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ServiceManagement.framework",
 		"/opt/homebrew/opt/qt@5/lib/QtCore.framework",
 		"/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers",
 		"/opt/homebrew/opt/qt@5/mkspecs/macx-clang",
@@ -372,6 +380,11 @@
 	[
 		[
 			"/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/LaundryTimer.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/NotificationManager.mm",
 			"MU",
 			null
 		],

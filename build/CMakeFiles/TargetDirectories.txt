@@ -1,0 +1,5 @@
+/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/build/CMakeFiles/DesktopWidgetForLaundry.dir
+/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/build/CMakeFiles/edit_cache.dir
+/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/build/CMakeFiles/rebuild_cache.dir
+/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/build/CMakeFiles/DesktopWidgetForLaundry_autogen_timestamp_deps.dir
+/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/build/CMakeFiles/DesktopWidgetForLaundry_autogen.dir

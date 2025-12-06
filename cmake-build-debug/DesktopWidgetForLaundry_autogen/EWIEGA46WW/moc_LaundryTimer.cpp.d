@@ -598,6 +598,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cxx03/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
@@ -703,8 +704,10 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
+  /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/NotificationManager.h \
   /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/StatusItemBridge.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/QObject \
+  /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/QSettings \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/QString \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/QTimer \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
@@ -747,6 +750,7 @@
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qrefcount.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qregexp.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qscopedpointer.h \
+  /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qsettings.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qshareddata.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qsharedpointer.h \
   /opt/homebrew/Cellar/qt@5/5.15.18/lib/QtCore.framework/Versions/5/Headers/qsharedpointer_impl.h \

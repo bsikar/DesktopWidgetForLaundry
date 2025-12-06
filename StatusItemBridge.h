@@ -14,6 +14,10 @@ public:
     void setMenu(QMenu *menu);
     void show();
 
+    // Launch at login support
+    static bool isLoginItemEnabled();
+    static bool setLoginItemEnabled(bool enabled);
+
 private:
     void *statusItem; // NSStatusItem*
 };

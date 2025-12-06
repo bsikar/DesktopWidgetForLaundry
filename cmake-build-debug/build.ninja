@@ -43,17 +43,19 @@ cmake_ninja_workdir = /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-
 # =============================================================================
 # Object build statements for EXECUTABLE target DesktopWidgetForLaundry
 
+build DesktopWidgetForLaundry.app/Contents/Resources/AppIcon.icns: COPY_OSX_CONTENT /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/AppIcon.icns
+
 
 #############################################
 # Order-only phony target for DesktopWidgetForLaundry
 
-build cmake_object_order_depends_target_DesktopWidgetForLaundry: phony || DesktopWidgetForLaundry_autogen DesktopWidgetForLaundry_autogen/mocs_compilation.cpp DesktopWidgetForLaundry_autogen/timestamp DesktopWidgetForLaundry_autogen_timestamp_deps
+build cmake_object_order_depends_target_DesktopWidgetForLaundry: phony || DesktopWidgetForLaundry.app/Contents/Resources/AppIcon.icns DesktopWidgetForLaundry_autogen DesktopWidgetForLaundry_autogen/mocs_compilation.cpp DesktopWidgetForLaundry_autogen/timestamp DesktopWidgetForLaundry_autogen_timestamp_deps
 
 build CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp.o: CXX_COMPILER__DesktopWidgetForLaundry_unscanned_Debug /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_DesktopWidgetForLaundry
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -fPIC
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -Wall -Wextra -fPIC
   INCLUDES = -I/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -iframework /opt/homebrew/opt/qt@5/lib -isystem /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt@5/./mkspecs/macx-clang -isystem /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers
   OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
   OBJECT_FILE_DIR = CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen
@@ -64,7 +66,7 @@ build CMakeFiles/DesktopWidgetForLaundry.dir/main.cpp.o: CXX_COMPILER__DesktopWi
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/DesktopWidgetForLaundry.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -fPIC
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -Wall -Wextra -fPIC
   INCLUDES = -I/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -iframework /opt/homebrew/opt/qt@5/lib -isystem /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt@5/./mkspecs/macx-clang -isystem /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers
   OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
   OBJECT_FILE_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
@@ -75,7 +77,7 @@ build CMakeFiles/DesktopWidgetForLaundry.dir/LaundryTimer.cpp.o: CXX_COMPILER__D
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/DesktopWidgetForLaundry.dir/LaundryTimer.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -fPIC
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -Wall -Wextra -fPIC
   INCLUDES = -I/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -iframework /opt/homebrew/opt/qt@5/lib -isystem /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt@5/./mkspecs/macx-clang -isystem /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers
   OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
   OBJECT_FILE_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
@@ -86,7 +88,18 @@ build CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o: OBJCXX_COMPI
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o.d
-  FLAGS = -g -std=gnu++2a -arch arm64 -fPIC
+  FLAGS = -g -std=gnu++2a -arch arm64 -fcolor-diagnostics -Wall -Wextra -fPIC
+  INCLUDES = -I/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -iframework /opt/homebrew/opt/qt@5/lib -isystem /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt@5/./mkspecs/macx-clang -isystem /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers
+  OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
+  OBJECT_FILE_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
+  TARGET_COMPILE_PDB = CMakeFiles/DesktopWidgetForLaundry.dir/
+  TARGET_PDB = DesktopWidgetForLaundry.pdb
+
+build CMakeFiles/DesktopWidgetForLaundry.dir/NotificationManager.mm.o: OBJCXX_COMPILER__DesktopWidgetForLaundry_unscanned_Debug /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/NotificationManager.mm || cmake_object_order_depends_target_DesktopWidgetForLaundry
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/DesktopWidgetForLaundry.dir/NotificationManager.mm.o.d
+  FLAGS = -g -std=gnu++2a -arch arm64 -fcolor-diagnostics -Wall -Wextra -fPIC
   INCLUDES = -I/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug/DesktopWidgetForLaundry_autogen/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -iframework /opt/homebrew/opt/qt@5/lib -isystem /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt@5/./mkspecs/macx-clang -isystem /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers
   OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
   OBJECT_FILE_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
@@ -101,11 +114,11 @@ build CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o: OBJCXX_COMPI
 #############################################
 # Link the executable DesktopWidgetForLaundry.app/Contents/MacOS/DesktopWidgetForLaundry
 
-build DesktopWidgetForLaundry.app/Contents/MacOS/DesktopWidgetForLaundry: CXX_EXECUTABLE_LINKER__DesktopWidgetForLaundry_Debug CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/main.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/LaundryTimer.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o | /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore || DesktopWidgetForLaundry_autogen DesktopWidgetForLaundry_autogen_timestamp_deps
+build DesktopWidgetForLaundry.app/Contents/MacOS/DesktopWidgetForLaundry: CXX_EXECUTABLE_LINKER__DesktopWidgetForLaundry_Debug CMakeFiles/DesktopWidgetForLaundry.dir/DesktopWidgetForLaundry_autogen/mocs_compilation.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/main.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/LaundryTimer.cpp.o CMakeFiles/DesktopWidgetForLaundry.dir/StatusItemBridge.mm.o CMakeFiles/DesktopWidgetForLaundry.dir/NotificationManager.mm.o | /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore || DesktopWidgetForLaundry_autogen DesktopWidgetForLaundry_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -g -arch arm64
   LINK_FLAGS = -L/opt/homebrew/opt/curl/lib
-  LINK_LIBRARIES = -framework Cocoa  /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets  /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui  /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore
+  LINK_LIBRARIES = -framework Cocoa  -framework UserNotifications  -framework ServiceManagement  /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets  /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui  /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore
   LINK_PATH = -F/opt/homebrew/opt/qt@5/lib
   OBJECT_DIR = CMakeFiles/DesktopWidgetForLaundry.dir
   POST_BUILD = :
@@ -119,8 +132,9 @@ build DesktopWidgetForLaundry.app/Contents/MacOS/DesktopWidgetForLaundry: CXX_EX
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
+  COMMAND = cd /Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug && /opt/homebrew/bin/ccmake -S/Users/bsikar/CLionProjects/DesktopWidgetForLaundry -B/Users/bsikar/CLionProjects/DesktopWidgetForLaundry/cmake-build-debug
+  DESC = Running CMake cache editor...
+  pool = console
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+0fd51f957da56c3539c9764c38d417d6 CMakeFiles/DesktopWidgetForLaundry_autogen
+e5db115f55a09d8c41f4d2aa38aeb245 DesktopWidgetForLaundry_autogen/timestamp
